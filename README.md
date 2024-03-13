@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Prepare the dataset.
 
-- The DDTI and TN3K datasets, divided into a 7:2:1 ratio, can be found here ([GoogleDrive](https://drive.google.com/drive/folders/1za9f38XKx-VYPxxb_xx83Dpk-Wg3Yaw8?usp=drive_link)).
+- The DDTI and TN3K datasets, divided into a 7:1:2 ratio, can be found here ([GoogleDrive](https://drive.google.com/drive/folders/1za9f38XKx-VYPxxb_xx83Dpk-Wg3Yaw8?usp=drive_link)).
 
 
 - Then prepare the datasets in the following format for easy use of the code:
