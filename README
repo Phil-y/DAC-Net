@@ -1,26 +1,27 @@
-DAC-Net
+# DAC-Net
 
 This repository is the official implementation of DAC-Net : An Light-weight U-shaped Network Based Efficient Convolution And Dual-Attention for Thyroid Nodule Segmentation using PyTorch.
 
 
 
-Main Environments
+## Main Environments
 
 - python 3.8
 - pytorch 1.8.0
 - torchvision 0.9.0
 
-Requirements
+## Requirements
 
 Install from the requirements.txt using:
 
+'
     pip install -r requirements.txt
+'
 
 
+## Prepare the dataset.
 
-Prepare the dataset.
-
-- The DDTI and TN3K datasets, divided into a 7:2:1 ratio, can be found here {Baidu or GoogleDrive}.
+- The DDTI and TN3K datasets, divided into a 7:2:1 ratio, can be found here (GoogleDrive).
 
 - Then prepare the datasets in the following format for easy use of the code:
 
@@ -46,12 +47,12 @@ Prepare the dataset.
                 ├── img
                 └── labelcol
 
-2. Train the EGE-UNet.
+2. Train the DAC-Net.
 
-    cd Y-Net
+    cd DAC-Net
     
 
-    python train.py
+    python3 train_model.py
     
 
 3. Obtain the outputs.
