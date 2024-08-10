@@ -23,8 +23,7 @@ pip install -r requirements.txt
 
 ## Prepare the dataset.
 
-- The DDTI and TN3K datasets, divided into a 7:1:2 ratio, can be found here ([GoogleDrive](https://drive.google.com/drive/folders/1za9f38XKx-VYPxxb_xx83Dpk-Wg3Yaw8?usp=sharing)).
-
+- The DDTI datasets can be found here ([Link](http://cimalab.intec.co/applications/thyroid/)) and the TN3K datasets can be found here ([Link](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation)), divided into a 7:1:2 ratio, .
 
 - Then prepare the datasets in the following format for easy use of the code:
 
