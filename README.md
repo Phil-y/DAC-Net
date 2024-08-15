@@ -91,6 +91,3 @@ python test_model.py
 If you find this work useful in your research or use this dataset in your work, please consider citing the following papers:
 
 
-## Contact
-
-Yang:(1258595425yyw@gmail.com)
