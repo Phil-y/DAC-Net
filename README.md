@@ -1,6 +1,6 @@
 # [CIBM2024]DAC-Net
 🔥🔥This repo is the official implementation of
-[DAC-Net : An Light-weight U-shaped Network Based Efficient Convolution And Dual-Attention for Thyroid Nodule Segmentation]([https://ojs.aaai.org/index.php/AAAI/article/view/20144](https://www.sciencedirect.com/science/article/pii/S0010482524010576)which is accepted at Computers in Biology and Medicine.🔥🔥
+[DAC-Net : An Light-weight U-shaped Network Based Efficient Convolution And Dual-Attention for Thyroid Nodule Segmentation](https://www.sciencedirect.com/science/article/pii/S0010482524010576))which is accepted at Computers in Biology and Medicine.🔥🔥
 
 ![DAC-Net](docs/DAC-Net.png)
 
