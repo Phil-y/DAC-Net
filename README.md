@@ -63,17 +63,6 @@ python train_model.py
 ```
 
 
-## Evaluate the Model
-
-Please make sure the right model, dataset and hyperparameters setting  is selected in `Config.py`. 
-
-Then simply run the evaluation code.
-
-```
-python test_model.py
-```
-
-
 ## Reference
 - [UNet](https://github.com/ZJUGiveLab/UNet-Version)
 - [UNet++](https://github.com/ZJUGiveLab/UNet-Version)
