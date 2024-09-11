@@ -52,15 +52,6 @@ pip install -r requirements.txt
 ```
 
 
-## Train the Model
-
-First, modify the model, dataset and training hyperparameters (including learning rate, batch size img size and optimizer etc) in `Config.py`
-
-Then simply run the training code.
-
-```
-python train_model.py
-```
 
 
 ## Reference
