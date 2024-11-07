@@ -6,11 +6,7 @@ import random
 from torch.backends import cudnn
 from Load_Dataset import RandomGenerator,ValGenerator,ImageToImage2D
 
-from networks.ACC_UNet import ACC_UNet
-
-from networks.MCS_Net import MCS_Net
-
-
+from networks.DAC_Net import DAC_Net
 
 from torch.utils.data import DataLoader
 import logging
@@ -18,9 +14,8 @@ from Train_one_epoch import train_one_epoch
 import Config as config
 from torchvision import transforms
 from Utils import CosineAnnealingWarmRestarts, WeightedDiceBCE
-
-
 import argparse
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--vit_name', type=str,
@@ -132,11 +127,11 @@ def main_loop(batch_size=config.batch_size, model_type=config.model_name, tensor
 
 
 
-    if  model_type == 'ACC_UNet':
-        model = ACC_UNet()
+    # if  model_type == 'ACC_UNet':
+    #     model = ACC_UNet()
 
-    elif model_type == 'MCS_Net':
-        model = MCS_Net()
+    if model_type == 'DAC_Net':
+        model = DAC_Net()
 
     else: raise TypeError('Please enter a valid name for the model type')
 
