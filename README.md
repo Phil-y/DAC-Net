@@ -26,32 +26,6 @@ pip install -r requirements.txt
 - The DDTI datasets, can be found here ([Google Drive](https://drive.google.com/file/d/1FfrVeiL7F5375BOAATz2s1J_jD-gTTbW/view?usp=drive_link))
 - The TN3K datasets, can be found here ([Google Drive](https://drive.google.com/file/d/1gadDP0V0F1LGdPXsTwFbNowPbFOoCHyN/view?usp=drive_link))
 
-#### Then prepare the datasets in the following format for easy use of the code:
-
-```
-├── datasets
-    ├── DDTI
-    │   ├── Test_Folder
-    │   │   ├── img
-    │   │   └── labelcol
-    │   ├── Train_Folder
-    │   │   ├── img
-    │   │   └── labelcol
-    │   └── Val_Folder
-    │       ├── img
-    │       └── labelcol
-    └── TN3k
-        ├── Test_Folder
-        │   ├── img
-        │   └── labelcol
-        ├── Train_Folder
-        │   ├── img
-        │   └── labelcol
-        └── Val_Folder
-            ├── img
-            └── labelcol
-```
-
 
 
 
