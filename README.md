@@ -1,5 +1,5 @@
 # DAC-Net
-This repo is the official implementation of DAC-Net : An Light-weight U-shaped Network Based Efficient Convolution And Dual-Attention for Thyroid Nodule Segmentation
+
 
 ![DAC-Net](docs/DAC-Net.png)
 
@@ -40,16 +40,5 @@ pip install -r requirements.txt
 
 
 
-## Citation
 
-If you find this work useful in your research or use this dataset in your work, please consider citing the following papers:
-```
-@article{2024DAC,
-  title={DAC-Net: A light-weight U-shaped network based efficient convolution and attention for thyroid nodule segmentation},
-  author={ Yang, Yingwei  and  Huang, Haiguang  and  Shao, Yingsheng  and  Chen, Beilei },
-  journal={Computers in Biology and Medicine},
-  volume={180},
-  year={2024},
-}
-```
 
